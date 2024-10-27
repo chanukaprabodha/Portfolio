@@ -40,8 +40,22 @@
           <li><a href="#award-section">Awards</a></li>
           <li><a href="#contact-section">Contact</a></li>
         </ul>
+        <i class="fa fa-bars burger" id="burger" aria-hidden="true"></i>
       </nav>
     </header>
+    <div class="menu-panel" id="menu-panel-id">
+      <button class="close-btn" id="btn-close">&times;</button>
+      <ul>
+        <li><a href="#home-section">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#resume-section">Resume</a></li>
+        <li><a href="#services-section">Services</a></li>
+        <li><a href="#skill-section">Skill</a></li>
+        <li><a href="#project-section">Projects</a></li>
+        <li><a href="#award-section">Awards</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </div>
     <!-- Home Page -->
     <section id="home-section">
       <div class="content">
@@ -72,7 +86,7 @@
             <span>Name :</span>
             <span>Date of Birth :</span>
             <span>Address :</span>
-            <span>Zip coed :</span>
+            <span>Zip code :</span>
             <span>Email :</span>
             <span>Phone :</span>
           </div>
@@ -359,23 +373,22 @@
           <img
             src="/Assets/Images/home-address.png"
             alt="address"
-            width="75px"
           />
           <h3>Address</h3>
           <p>488/6,Jayamawatha,Elpitiya.</p>
         </div>
         <div class="card">
-          <img src="/Assets/Images/call.png" alt="phone" width="75px" />
+          <img src="/Assets/Images/call.png" alt="phone" />
           <h3>Contact</h3>
           <p>+94-76-30-555-39</p>
         </div>
         <div class="card">
-          <img src="/Assets/Images/paper-plane.png" alt="email" width="75px" />
+          <img src="/Assets/Images/paper-plane.png" alt="email" />
           <h3>Email</h3>
           <p>ckprabodha@gmail.com</p>
         </div>
         <div class="card">
-          <img src="/Assets/Images/earth.png" alt="webSite" width="75px" />
+          <img src="/Assets/Images/earth.png" alt="webSite" />
           <h3>Web</h3>
           <p>www.chanugamage.com</p>
           <br />
@@ -497,5 +510,19 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      const burger = document.getElementById("burger");
+      const menuPanel = document.getElementById("menu-panel-id");
+      const closeBtn = document.getElementById("btn-close");
+
+      burger.addEventListener("click", () => {
+        menuPanel.classList.toggle("active");
+      });
+
+      closeBtn.addEventListener("click", () => {
+        menuPanel.classList.remove("active");
+      });
+    </script>
   </body>
 </html>
