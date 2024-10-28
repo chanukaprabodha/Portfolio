@@ -655,7 +655,7 @@ footer {
 
     /* Header */
     header {
-        width: 100%;
+        width: calc(100% - 10%);
     }
 
     header nav ul {
@@ -953,6 +953,10 @@ footer {
 
     .menu-panel.active {
         right: 0;
+    }
+
+    header {
+        width: calc(100% - 10%);
     }
 
     /* home */
