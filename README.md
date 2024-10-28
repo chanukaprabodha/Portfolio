@@ -51,6 +51,6 @@ Welcome to my personal portfolio repository! This is where creativity meets code
 
 Feel free to reach out to me via:
 
-- **Email**: ckprabodha@gmail.com
-- **LinkedIn**: www.linkedin.com/in/chanuka-prabodha-a78876234
-- **Reddit**: https://www.reddit.com/user/ChanukaGamage
+- [Facebokk](https://www.facebook.com/chanuka.gamage.5099)
+- [LinkedIn](https://linkedin.com/in/chanuka-prabodha-a78876234)
+- [Reddit](https://www.reddit.com/u/ChanukaGamage)
