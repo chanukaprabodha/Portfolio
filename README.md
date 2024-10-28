@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio repository! This is where creativity meets code, showcasing my journey as a software engineer and my passion for elegant and efficient solutions.
 
-![Portfolio Screenshot](link-to-your-screenshot-or-logo)
+![Screenshot 2024-10-28 211926](https://github.com/user-attachments/assets/133455e2-5b10-466f-abd0-060b3ac7e2fb)
 
 ## 🌟 Features
 
