@@ -1,5 +1,5 @@
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-color: black;
     color: white;
     font-family: "Roboto", sans-serif;
@@ -74,7 +74,7 @@ header span {
     cursor: pointer;
     position: absolute;
     top: 10px;
-    right: 20px;
+    right: 10px;
 }
 
 #burger {
@@ -179,7 +179,7 @@ nav ul li a:hover {
 }
 
 #about-section {
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -653,8 +653,11 @@ footer {
         height: 5rem;
     }
 
-
     /* Header */
+    header {
+        width: 100%;
+    }
+
     header nav ul {
         display: none;
     }
@@ -771,8 +774,8 @@ footer {
 
     /* resume */
     #resume-section .card {
-        height: 50vh;
-        padding: 15px;
+        height: 45vh;
+        padding: 20px;
     }
 
     /* services */
@@ -830,7 +833,7 @@ footer {
     }
 
     .card-content {
-        height: auto;
+        height: inherit;
         padding: 8px;
     }
 
